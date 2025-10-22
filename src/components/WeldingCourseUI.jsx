@@ -100,7 +100,7 @@ export default function WeldingCourseUI() {
             </div>
 
             {/* Main Card */}
-            <div className="bg-teal-200/60 rounded-2xl p-8 pt-10 sm:p-6 sm:pt-8 shadow-lg">
+            <div className="bg-teal-200/60 rounded-2xl p-8 pt-14 sm:p-6 sm:pt-10 shadow-lg">
               <p className="text-slate-700 text-center leading-relaxed text-base sm:text-sm">
                 <span className="font-bold">Since 2012</span>, we've successfully facilitated
                 thousands of career transitions, building lasting relationships with both candidates
