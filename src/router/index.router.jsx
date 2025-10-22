@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Specilizations from "../pages/Specialization";
 import RecruitmentProcess from "../pages/RecruitementProcess";
-import Careers from "../pages/careers";
+import {Careers} from "../pages/Careers";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 

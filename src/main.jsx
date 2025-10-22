@@ -5,9 +5,7 @@ import App from './App.jsx'
 import { HeroUIProvider } from '@heroui/react'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <HeroUIProvider>
       <App />
     </HeroUIProvider>
-  </StrictMode>,
 )
