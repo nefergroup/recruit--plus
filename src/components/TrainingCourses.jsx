@@ -74,7 +74,7 @@ export default function TrainingCoursesUI() {
                 </div>
 
                 {/* Bottom Image - Relative, slightly right inside container */}
-                <div className="relative mt-2 -right-16 md:-right-44 translate-x-8 sm:translate-x-12 md:translate-x-16 z-0">
+                <div className="relative mt-2 -right-10 md:-right-44 translate-x-8 sm:translate-x-12 md:translate-x-16 z-0">
                     <img
                         src={training2}
                         alt="Steel Fitter"

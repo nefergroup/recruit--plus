@@ -106,8 +106,8 @@ export const Navbar = () => {
           <div className="flex-1 space-y-2 px-6 font-amsterdam-two">
             <Link to="/" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Home</Link>
             <Link to="/about" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>About</Link>
-            <Link to="/service" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Services</Link>
-            <Link to="/careers" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Careers</Link>
+            <Link to="/services" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Services</Link>
+            <Link to="/career" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Careers</Link>
             <Link to="/recruit" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Recruit</Link>
           </div>
         </div>
