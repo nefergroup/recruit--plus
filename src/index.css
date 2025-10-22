@@ -4,6 +4,13 @@
 @import "tailwindcss";
 @plugin './hero.ts';
 
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* === Custom Theme Variables === */
 @theme {
   /* Font Families */

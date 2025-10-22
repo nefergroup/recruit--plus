@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 import { useEffect, useState } from 'react';
 import logo from '../assets/logo/recruit-logo.png'
 
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [navTheme, setNavTheme] = useState("transparent");
