@@ -1,0 +1,103 @@
+/* === Font Imports === */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import "https://use.typekit.net/dwd8rdn.css";
+@import "tailwindcss";
+@plugin './hero.ts';
+
+/* === Custom Theme Variables === */
+@theme {
+  /* Font Families */
+  --font-primary: "Roboto", sans-serif;        /* ✅ Primary font (new) */
+  --font-secondary: "Open Sans", sans-serif;   /* Google font */
+  --font-heading: "Oswald", sans-serif;        /* For titles/headings */
+  --font-mono: "courier-prime", monospace;     /* Adobe font (monospace style) */
+
+  /* Roboto Weights */
+  --font-primary-light: "Roboto", sans-serif;
+  --font-primary-regular: "Roboto", sans-serif;
+  --font-primary-medium: "Roboto", sans-serif;
+  --font-primary-bold: "Roboto", sans-serif;
+
+  /* Colors */
+  --color-primary-bg: #e9f7fd;
+  --color-primary-text: #222222;
+  --color-secondary-bg: #b8e2e6;
+  --color-secondary-text: #434f6b;
+  --color-accent-blue: #4dc0b5;
+  --color-accent-teal: #66d9ef;
+  --color-third-text: #3a56a5;
+}
+
+/* === Dark Mode Variant === */
+@custom-variant dark (&:is(.dark *)) {}
+
+/* === Base Styles === */
+html, body, #root {
+  @apply w-full min-h-screen m-0 p-0;
+  font-family: var(--font-primary);
+}
+
+/* === Font Utilities === */
+
+/* Primary (Roboto) Variants */
+.font-primary {
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+.font-primary-light {
+  font-family: var(--font-primary-light);
+  font-weight: 300;
+}
+
+.font-primary-medium {
+  font-family: var(--font-primary-medium);
+  font-weight: 500;
+}
+
+.font-primary-bold {
+  font-family: var(--font-primary-bold);
+  font-weight: 700;
+}
+
+/* Monospace (Courier Prime - Adobe) */
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Secondary Fonts */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* Heading Fonts */
+.font-heading {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+/* === Background Utilities === */
+.bg-primary {
+  background-color: var(--color-primary-bg);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary-bg);
+}
+
+.bg-accent-blue {
+  background-color: var(--color-accent-blue);
+}
+
+.bg-accent-teal {
+  background-color: var(--color-accent-teal);
+}
+
+/* === Text Utilities === */
+.text-primary {
+  color: var(--color-primary-text);
+}
+
+.text-secondary {
+  color: var(--color-secondary-text);
+}
