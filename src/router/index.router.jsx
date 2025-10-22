@@ -39,7 +39,7 @@ export const AppRouter = createBrowserRouter([
                 element: <Services />,
             },
             {
-                path: "contact",
+                path: "contact-us",
                 element: <Contact />,
             },
         ],

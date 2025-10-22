@@ -54,9 +54,9 @@ export const Navbar = () => {
             <Link to="/recruit" className="hover:text-primary transition-colors">
               recurit
             </Link>
-            {/* <Link to="/contact" className="hover:text-primary transition-colors">
+            <Link to="/contact-us" className="hover:text-primary transition-colors">
                             contact
-                        </Link> */}
+                        </Link>
           </div>
 
           {/* Center: Logo */}
@@ -109,6 +109,7 @@ export const Navbar = () => {
             <Link to="/services" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Services</Link>
             <Link to="/career" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Careers</Link>
             <Link to="/recruit" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>Recruit</Link>
+            <Link to="/contact-us" className="block py-3 text-foreground hover:text-primary border-b border-gray-100" onClick={() => setIsOpen(false)}>contact</Link>
           </div>
         </div>
       </div>

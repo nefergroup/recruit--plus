@@ -47,20 +47,7 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Bottom info section */}
-      <div className="py-12 px-4 md:px-16 bg-blue-50">
-        <div className="max-w-4xl">
-          <p className="text-slate-700 leading-relaxed">
-            <span className="font-bold text-lg">Important:</span>{" "}
-            <span className="font-semibold">
-              India office is only a back end office for all education, training and administrative support and is not in the business of recruitment.{" "}
-            </span>
-            <span className="font-normal">
-              All recruitment process is handled by Recruit Plus Europe directly.
-            </span>
-          </p>
-        </div>
-      </div>
+      
     </>
   );
 };
