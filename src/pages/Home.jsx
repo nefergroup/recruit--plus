@@ -1,9 +1,16 @@
 import React from 'react'
 import logo from '../assets/logo/recruit-logo.png'
 import banner from '../assets/images/recruit-banner.jpeg'
+import About from './About'
+import Specialization from './Specialization'
+import RecruitmentProcess from './RecruitementProcess'
+import Careers from './careers'
+import Services from './Services'
 
 const Home = () => {
+
     return (
+        <>
         <div className="bg-primary min-h-screen">
             {/* Main Container */}
             <div className="max-w-6xl mx-auto px-5 py-10 text-center">
@@ -73,6 +80,12 @@ const Home = () => {
 
 
         </div>
+        <About />
+        <Specialization />
+        <RecruitmentProcess />
+        <Careers />
+        <Services />
+        </>
     )
 }
 

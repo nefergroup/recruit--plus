@@ -4,6 +4,8 @@ import warehouseImg from '../assets/images/career.png'; // Update path as per yo
 import PlacementServices from '../components/PlacementService';
 import SkillGrowAcademy from '../components/SkillGrowAcademy';
 import TrainingCoursesUI from '../components/TrainingCourses';
+import WeldingCourseUI from '../components/WeldingCourseUI';
+import LocationsSection from '../components/LocationSection';
 
 export default function Careers() {
     return (
@@ -26,22 +28,21 @@ export default function Careers() {
                         Your Complete Career<br />
                         Transition Partner
                     </div>
-                    <div className="mt-8 w-full overflow-hidden">
-                        <div className="flex flex-row justify-between">
-                            {[...Array(10)].map((_, i) => (
-                                <div
-                                    key={i}
-                                    className="flex-1 h-3 mx-[2px] rounded-sm bg-[#6ee6f5] opacity-50"
-                                    style={{ transform: 'skewX(-20deg)' }}
-                                />
-                            ))}
-                        </div>
+                    <div className="mt-12 flex justify-end gap-2 opacity-30">
+                        {[...Array(12)].map((_, i) => (
+                            <div
+                                key={i}
+                                className="w-3 h-10 md:w-8 md:h-24 bg-teal-300 transform skew-x-12"
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
             <PlacementServices />
             <SkillGrowAcademy />
             <TrainingCoursesUI />
+            <WeldingCourseUI />
+            <LocationsSection />
         </>
     );
 }

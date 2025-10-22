@@ -5,6 +5,8 @@ import About from "../pages/About";
 import Specilizations from "../pages/Specialization";
 import RecruitmentProcess from "../pages/RecruitementProcess";
 import Careers from "../pages/careers";
+import Services from "../pages/Services";
+import Contact from "../pages/Contact";
 
 
 export const AppRouter = createBrowserRouter([
@@ -25,12 +27,20 @@ export const AppRouter = createBrowserRouter([
                 element: <Specilizations />,
             },
             {
-                path: "recruite",
+                path: "recruit",
                 element: <RecruitmentProcess />,
             },
             {
                 path: "career",
                 element: <Careers />,
+            },
+            {
+                path: "services",
+                element: <Services />,
+            },
+            {
+                path: "contact",
+                element: <Contact />,
             },
         ],
     },

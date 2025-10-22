@@ -3,7 +3,7 @@ import aboutImg from "../assets/images/recruit-about.jpg";
 
 const About = () => {
   return (
-    <div className="bg-primary min-h-screen flex flex-col font-secondary text-primary">
+    <div className="bg-primary min-h-screen flex flex-col font-secondary text-primary ">
       {/* --- Top Section --- */}
       <div className="relative w-full h-[450px]">
         {/* Split background: top plain color, bottom image */}
