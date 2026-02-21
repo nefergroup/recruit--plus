@@ -59,10 +59,9 @@ const Footer = () => {
                 <MapPin className="w-5 h-5" />
                 Indian Office
               </p>
-              <p>35/1420, 2nd Floor,</p>
-              <p>Next to Dream Flower Magna Latros Apartment,</p>
-              <p>Ponakkara Road, Edappally, Ernakulam 682024, Kerala, India</p>
-              <p className="mt-2">Phone: +91 70120 86422, +91 88489 61134</p>
+
+              <p>Ernakulam 682024, Kerala, India</p>
+              <p className="mt-2">Phone: +91 90747 96306</p>
             </div>
           </div>
 
